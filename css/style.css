@@ -1,8 +1,23 @@
 * {
     margin: 0;
     padding: 0;
-
+    box-sizing: border-box;
+    background-color: black;
+    color: white;
+    padding-top: 15px;
+    padding-bottom: 15px;
 }
+
+a {
+    text-decoration: none;
+    color: white;
+}
+
+main {
+    text-align: center;
+    padding-top: 0;
+}
+
 
 header {
     padding-top: 10px;
@@ -12,21 +27,97 @@ header {
     align-items: center;
     flex-direction: row;
     justify-content: space-between;
-    border: 1px solid black;
+    border: 1px solid white;
+}
+header, .banner, .sections, footer{
+    padding-left: 2%;
+    padding-right: 2%;
 }
 
-div a {
-    text-decoration: none;
+
+.nav-link {
+    font-size: 20px;
+}
+
+.logo a {
+    font-size: 36px;
 }
 
 
 
-.nav-list {
+
+
+.nav-list, .socials-list {
     list-style-type: none;
     display: block;
     right: 0;
 }
 
-.nav-link {
+.nav-link, .socials-link {
     display: inline-block;
+}
+
+footer {
+    border: 1px solid white;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding-top: 30px;
+    padding-bottom: 30px;
+    
+}
+
+.banner {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-between;
+    background: black;
+    padding-top: 30px;
+    padding-bottom: 30px;
+    border: 1px solid white;
+}
+
+.sections {
+    text-align: center;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+
+.banner-img, .section-img{
+    width: 200px;
+    height: 200px;
+    border: 1px solid white;
+    border-radius: 25px;
+
+}
+
+.banner-about {
+    text-align: left;
+
+}
+
+section {
+    width: fit-content;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: start;
+    width: 200px;
+}
+section p {
+    width: auto;
+    display: inline-block;
+}
+
+section a, .banner-contact{
+    padding: 20px;
+    border: 1px solid white;
+    width: fit-content;
+    display: block;
+    border-radius: 15px;
+
+
 }
