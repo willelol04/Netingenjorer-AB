@@ -1,0 +1,32 @@
+* {
+    margin: 0;
+    padding: 0;
+
+}
+
+header {
+    padding-top: 10px;
+    padding-bottom: 10px;
+    width: 100%;
+    display: flex;
+    align-items: center;
+    flex-direction: row;
+    justify-content: space-between;
+    border: 1px solid black;
+}
+
+div a {
+    text-decoration: none;
+}
+
+
+
+.nav-list {
+    list-style-type: none;
+    display: block;
+    right: 0;
+}
+
+.nav-link {
+    display: inline-block;
+}
