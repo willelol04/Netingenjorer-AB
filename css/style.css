@@ -49,6 +49,7 @@ header {
     flex-direction: column;
     justify-content: space-between;
     border-top: 1px solid black;
+    padding: 0;
 }
 
 
@@ -69,11 +70,13 @@ header {
 
 nav {
     width: 35vw;
+    padding: 0;
 
 }
 
 .nav-list {
     width: 100%;
+    padding: 0;
 }
 
 
