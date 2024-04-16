@@ -4,130 +4,127 @@
 * {
     margin: 0;
     padding: 0;
+    border: none;
+
     box-sizing: border-box;
-    background-color: white;
-    color: black;
-    padding-top: 15px;
-    padding-bottom: 15px;
-    font-family: "Russo One", sans-serif;
-    font-weight: 50;
-    font-style: normal;
-    
+
 }
+
 
 .logo {
     width: 20vw;
 }
 
-
-
-.logo a, section h3, .main-heading, .banner h2 {
-    font-family: "Bungee Spice", sans-serif;
-    font-weight: 400;
-    font-style: normal;
-}
-
 .search-button, .search-input {
-    padding: 0;
-    margin: 0;
     display: inline-block;
-
-    
 }
 
 .search-button {
     width: 20%;
-    cursor:pointer;
+    border: none;
+    cursor: pointer;
+    height: 50px;
+    background: #F4F4F4;
+
 }
+
+
+
+.search-button i {
+    background: #F4F4F4;
+}
+
+.search-button {
+    color: black;
+    outline: none;
+
+
+}
+
+
+
 
 .search-input {
     width: 80%;
-    height: 35px;
-    font-style: normal;
-    text-decoration: none;
+    height: 50px;
+    background: #1A1C20;
+    border: none;
+    color: white;
+    font-family: 'Arial Narrow Bold';
+    padding-right: 5px;
+    padding-left: 5px;
+
+
 }
 
 
 form {
-    border: 1px solid black;
     height: fit-content;
     width: 12vw;
-    padding: 0;
-    margin: 0;
+    background: #1A1C20;
+    border: 3px solid white;
+    border-radius: 2px;
+
+
 }
 
+::placeholder { color: #F4F4F4;}
+
+.banner a:hover, section a:hover {
+    text-decoration: underline;
+    transition-duration: 300ms;
+    padding: 20px;
+
+}
+
+main {
+    text-align: center;
+    background: #F4F4F4;
+    padding-bottom: 40px;
 
 
-section h3 {
-    color: blue;
+
 }
 
 a {
     text-decoration: none;
 }
 
-.banner a, section a {
-    border: 1px solid;
-
-}
-
-.banner a:hover, section a:hover {
-    background-color: black;
-    color: white;
-    transition-duration: 300ms;
-
-}
-
-main {
-    text-align: center;
-    padding-top: 0;
-    padding-bottom: 0;
-}
-
-
-
-
-
 body, html {
     display: block;
-    padding: 0;
-    border: none;
 }
-
 
 header {
     display: flex;
     align-items: center;
     flex-direction: row;
     justify-content: space-between;
-    padding: 0;
+    color: #F4F4F4;
+
 }
 
-
-
+header a, footer span, .socials-list p{
+    color: #F4F4F4;
+}
 
 .nav-link {
-    font-size: 20px;
+    font-size: 1.2rem;
 }
+
 
 .logo a {
-    font-size: 30px;
+    font-size: 3rem;
     text-align: center;
+    font-family: "Jersey 15 Charted", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+}
+a {
+    color: #F4F4F4;
 
 }
-
-
-
-
 nav {
     width: 35vw;
-    padding: 0;
-
-}
-
-.nav-list {
-    width: 100%;
-    padding: 0;
 }
 
 
@@ -138,54 +135,61 @@ nav {
     gap: 5%;
     align-items: center;
     list-style-type: none;
+    font-family: "Russo One", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+
 }
 
 
-
+footer, header {
+    background-color: #1A1C20;
+    padding-bottom: 30px;
+    padding-top: 30px;
+}
 
 footer {
     display: flex;
     align-items: center;
     justify-content: space-between;
-
-    
+    font-family: "Russo One", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+    letter-spacing: 1px;
 }
 
 .banner {
-    display: flex;
-    flex-direction: row;
-    align-items: center;
-    justify-content: space-between;
-    gap: 5%;
     height: 50vh;
+    background-image: url('../img/banner2.jpg');
+    background-repeat: no-repeat;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size:cover;
+    position: relative;    
+
 }
+
 .main-heading {
     padding-bottom: 40px;
     padding-top: 40px;
+    font-family:Verdana, Geneva, Tahoma, sans-serif;
+    font-size: 2rem;
+
 }
+
 .sections {
     text-align: left;
     display: flex;
-    justify-content: space-between;
+    justify-content: space-around;
     align-items: center;
-    padding-top: 0;
-    padding-bottom: 40px;
 }
 
 img {
-    padding: 0;
-    border-radius: 15px;
+    border-radius: 10px;
     object-fit: cover;
 }
 
 
-.banner-img{
-    height: 100%;
-    min-width: 35vw;
-    
-
-
-}
 
 .section-img {
     width: 100%;
@@ -194,7 +198,19 @@ img {
 
 .banner-about {
     text-align: left;
-    width: 60vw;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    color: #F4F4F4;
+    font-family: "Russo One", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+    
+}
+
+.banner-about p {
+    margin-bottom: 10px;
 
 }
 
@@ -204,14 +220,17 @@ section {
     flex-direction: column;
     align-items: center;
     justify-content: start;
+    gap: 20px;
     width: 200px;
-    padding: 0;
 }
-section p {
-    width: auto;
-    display: inline-block;
-    padding-top: 0;
+
+section h3, .department, .department-about h3 {
+    font-family: "Bungee Spice", sans-serif;
+    font-weight: 400;
+    font-style: normal;
 }
+
+
 
 section a, .banner-contact{
     
@@ -219,30 +238,85 @@ section a, .banner-contact{
     width: fit-content;
     display: block;
     border-radius: 15px;
-
-
+    background-color: #1A1C20;
+    border: 1px solid white;
 }
+
+
 
 body {
     width: 100%;
-    padding-left: 8%;
-    padding-right: 8%;
-    padding-bottom: 5vh;
-    background: url("../img/bg.jpg");
 }
 
-header, .banner, .sections, footer {
+header, main, footer {
     width: 100%;
     padding-left: 10%;
     padding-right: 10%;
-
 }
 
-.socials-link {
+
+.socials-list li {
     margin-left: 10px;
 }
 
-header, .banner, main {
-    border-bottom: 1px solid black;
+.socials-span {
+    color: #F4F4F4;
+}
+
+section p {
+    width: 100%;
+    display: inline-block;
+    font-family:Verdana, Geneva, Tahoma, sans-serif;
+    letter-spacing: 1px;
+    margin: 0;
+}
+
+.container {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    gap: 10%;
+}
+
+.department-about {
+    text-align: left;
 
 }
+
+.departments {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+
+    
+}
+
+.department {
+    padding-top: 40px;
+    padding-bottom: 40px;
+    color: white;
+    border-bottom: 1px solid white;
+    cursor: pointer;
+    background-color:#1A1C20;
+    width: 25vw;
+
+
+}
+
+.CAD {
+    border-top-left-radius: 50px;
+    border-top-right-radius: 50px;
+
+}
+
+.RECEPTION {
+    border-bottom-left-radius: 50px;
+    border-bottom-right-radius: 50px;
+
+
+}
+
+
+
+
