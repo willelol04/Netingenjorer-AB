@@ -224,7 +224,7 @@ section {
     width: 200px;
 }
 
-section h3, .department, .department-about h3 {
+section h3, .department-about h3 {
     font-family: "Bungee Spice", sans-serif;
     font-weight: 400;
     font-style: normal;
