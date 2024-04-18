@@ -108,14 +108,16 @@ header a, footer span, .socials-list p{
 }
 
 .nav-link {
-    font-size: 1.2rem;
+    font-size: 1.8rem;
+    font-family: "Jersey 10", sans-serif;
+
 }
 
 
 .logo a {
     font-size: 3rem;
     text-align: center;
-    font-family: "Jersey 15 Charted", sans-serif;
+    font-family: "Jersey 10", sans-serif;
     font-weight: 400;
     font-style: normal;
 }
@@ -135,7 +137,6 @@ nav {
     gap: 5%;
     align-items: center;
     list-style-type: none;
-    font-family: "Russo One", sans-serif;
     font-weight: 400;
     font-style: normal;
 
@@ -181,7 +182,7 @@ footer {
     text-align: left;
     display: flex;
     justify-content: space-around;
-    align-items: center;
+    align-items: flex-end;
 }
 
 img {
@@ -317,6 +318,7 @@ section p {
 
 }
 
+.active {
+    font-family: "Jersey 15 Charted", sans-serif;
 
-
-
+}
