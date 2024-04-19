@@ -225,13 +225,17 @@ section {
     width: 200px;
 }
 
-section h3, .department-about h3 {
+section h3, .department-heading{
     font-family: "Bungee Spice", sans-serif;
     font-weight: 400;
     font-style: normal;
 }
 
-
+.department-heading {
+    font-size: 2rem;
+    margin-top: 40px;
+    margin-bottom: 40px;
+}
 
 section a, .banner-contact{
     
@@ -273,53 +277,48 @@ section p {
 
 .container {
     display: flex;
-    flex-direction: row;
-    justify-content: space-between;
+    flex-direction: column;
+    justify-content: center;
     align-items: center;
     gap: 10%;
 }
 
 .department-about {
-    text-align: left;
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    
 
 }
 
 .departments {
+    width: 100%;
     display: flex;
-    flex-direction: column;
-    justify-content: space-around;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+
 
     
 }
 
 .department {
-    padding-top: 40px;
-    padding-bottom: 40px;
+    width: 15vw;
+    padding: 20px;
+    border-radius: 10px;
     color: white;
     border-bottom: 1px solid white;
     cursor: pointer;
     background-color:#1A1C20;
-    width: 25vw;
     font-family: "Russo One", sans-serif;
 
 
 
 }
 
-.CAD {
-    border-top-left-radius: 50px;
-    border-top-right-radius: 50px;
 
-}
-
-.RECEPTION {
-    border-bottom-left-radius: 50px;
-    border-bottom-right-radius: 50px;
-
-
-}
-
-.departments-text {
+.department-text-guide {
     font-family:Verdana, Geneva, Tahoma, sans-serif;
 
 }
@@ -327,4 +326,27 @@ section p {
 .active {
   font-family: "Jersey 15 charted", sans-serif;
 
+}
+
+.department-employees {
+    width: 40%;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    gap: 10%;
+}
+
+.department-info {
+    width: 40%;
+    text-align: left;
+}
+
+
+.employee {
+    width: 40%;
+    margin-bottom: 15px;
+}
+
+.employee img {
+    width: 100%;
 }
