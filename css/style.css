@@ -453,8 +453,6 @@ i {
     user-select: none;
 }
 
-
-
 .spin {
     transform: rotate(180deg);
 }
@@ -465,4 +463,10 @@ i {
 
 .fa-chevron-down {
     margin-left: 5px;
+}
+
+#CAD {
+    background-color:#F4F4F4;
+    color: #1A1C20;
+    border: 2px solid black;
 }
