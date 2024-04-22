@@ -51,7 +51,13 @@ const DEPARTMENTS = {
                 firstName : "Christina",
                 img : "../img/employees/christina.jpg",
                 title : "CAD-ritare"
+            },
+            2: {
+                firstName : "Jakob",
+                img : "../img/employees/jakob.jpg",
+                title : "Projektledare"
             }
+            
         }
     },
     2: {
@@ -149,6 +155,9 @@ function addEmployees(departmentInd) {
 
         depEmployees.appendChild(empDiv);
     }
+
+    addDepartmentInfo(departmentInd);
+
 }
 
 function addDepartmentInfo(departmentInd) {
@@ -156,6 +165,7 @@ function addDepartmentInfo(departmentInd) {
     while(depInfo.firstChild) {
         depInfo.firstChild.remove();
     }
+
     
     let headingFunction = document.createElement("h3");
     headingFunction.innerText = "Det vi gör:";
@@ -192,6 +202,18 @@ function loadDepartmentDiv() {
         depAboutDiv = document.createElement("div");
         depAboutDiv.className = "department-about";
 
+        depEmpCont = document.createElement("div");
+        depEmpCont.className = "emp-container";
+
+        empHeading = document.createElement("h3");
+        infoHeading = document.createElement("h3");
+        empHeading.innerText = "Våra Anställda";
+        infoHeading.innerText = "Om oss:";
+
+        depInfoCont = document.createElement("div");
+        depInfoCont.className = "info-container";
+
+
         depEmployees = document.createElement("div");
         depEmployees.className = "department-employees";
 
@@ -199,21 +221,27 @@ function loadDepartmentDiv() {
         depEmployeesHeading.innerText = "Anställda";
         depEmployeesHeading.className = "department-employees-heading";
 
-        depEmployees.appendChild(depEmployeesHeading);
+        depEmpCont.appendChild(empHeading);
+        depInfoCont.appendChild(infoHeading);
 
         depInfo = document.createElement("div");
         depInfo.className = "department-info";
 
-        depAboutDiv.appendChild(depEmployees);
-        depAboutDiv.appendChild(depInfo);
+        depEmpCont.appendChild(depEmployees);
+        depInfoCont.appendChild(depInfo);
 
+
+        depAboutDiv.appendChild(depEmpCont);
+        depAboutDiv.appendChild(depInfoCont);
+
+        let container = document.querySelector(".container");
+
+        container.appendChild(depAboutDiv);
         
 
     }
 
-    let container = document.querySelector(".container");
 
-    container.appendChild(depAboutDiv);
 
 }
 
@@ -243,7 +271,6 @@ divDepartments.forEach((dep) => {
                 //console.log(DEPARTMENTS[i]);
                 depHeading.innerHTML = DEPARTMENTS[i].heading;
                 addEmployees(i);
-                addDepartmentInfo(i);
                 break;
 
             }

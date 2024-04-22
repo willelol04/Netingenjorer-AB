@@ -350,3 +350,16 @@ section p {
 .employee img {
     width: 100%;
 }
+
+
+.emp-container, .info-container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 50%;
+}
+
+.emp-container h3, .info-container h3 {
+    display: block;
+    width: 100%;
+}
