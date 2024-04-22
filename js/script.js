@@ -205,8 +205,8 @@ function loadDepartmentDiv() {
         depEmpCont = document.createElement("div");
         depEmpCont.className = "emp-container";
 
-        empHeading = document.createElement("h3");
-        infoHeading = document.createElement("h3");
+        empHeading = document.createElement("h2");
+        infoHeading = document.createElement("h2");
         empHeading.innerText = "Våra Anställda";
         infoHeading.innerText = "Om oss:";
 

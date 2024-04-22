@@ -43,18 +43,9 @@
 
 
 
-
-.search-input {
-    width: 80%;
-    height: 50px;
-    background: #1A1C20;
-    border: none;
-    color: white;
-    font-family: 'Arial Narrow Bold';
+input, textarea {
     padding-right: 5px;
     padding-left: 5px;
-
-
 }
 
 
@@ -108,14 +99,14 @@ header a, footer span, .socials-list p{
 }
 
 .nav-link {
-    font-size: 1.7rem;
+    font-size: 1.7em;
     font-family: "Jersey 15", sans-serif;
 
 }
 
 
 .logo a {
-    font-size: 3rem;
+    font-size: 3em;
     text-align: center;
     font-family: "Jersey 15", sans-serif;
     font-weight: 400;
@@ -129,6 +120,10 @@ nav {
     width: 35vw;
 }
 
+ul {
+    list-style-type: none;
+}
+
 
 .nav-list, .socials-list {
     
@@ -136,7 +131,6 @@ nav {
     justify-content: flex-end;
     gap: 5%;
     align-items: center;
-    list-style-type: none;
     font-weight: 400;
     font-style: normal;
 
@@ -174,7 +168,7 @@ footer {
     padding-bottom: 40px;
     padding-top: 40px;
     font-family:Verdana, Geneva, Tahoma, sans-serif;
-    font-size: 2rem;
+    font-size: 2em;
 
 }
 
@@ -232,7 +226,7 @@ section h3, .department-heading{
 }
 
 .department-heading {
-    font-size: 2rem;
+    font-size: 2em;
     margin-top: 40px;
     margin-bottom: 40px;
 }
@@ -271,7 +265,6 @@ header, main, footer {
 section p {
     width: 100%;
     display: inline-block;
-    font-family:Verdana, Geneva, Tahoma, sans-serif;
     margin: 0;
 }
 
@@ -342,6 +335,7 @@ section p {
 }
 
 
+
 .employee {
     width: 40%;
     margin-bottom: 15px;
@@ -357,6 +351,7 @@ section p {
     flex-direction: column;
     align-items: center;
     width: 50%;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
 }
 
 .emp-container h3, .info-container h3 {
@@ -364,6 +359,80 @@ section p {
     width: 100%;
 }
 
-p, h3 {
+p, h3, h2 {
     margin-bottom: 20px;
+}
+
+p {
+    font-family:Verdana, Geneva, Tahoma, sans-serif;
+
+}
+
+.department-info h3 {
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+.row {
+    display: flex;
+    gap: 20px;
+
+}
+
+.contact-container {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    gap: 5%;
+}
+.contact {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+.email-info {
+    flex-basis: 40%;
+    padding: 10px;
+    border: 1px solid black;
+    border-radius: 5px;
+}
+.contact-container input {
+    border: 1px solid black;
+}
+
+.email-info input{
+    margin-bottom: 15px;
+    height: 30px;
+
+}
+
+.email-info {
+    text-align: left;
+}
+
+.email input, .text textarea {
+    width: 100%;
+}
+
+.text textarea {
+    min-height: 100px;
+    resize: vertical;
+    border: 1px solid grey;
+
+}
+
+i {
+    margin-bottom: 15px;
+}
+
+.phone-icon {
+    color: rgb(55, 202, 55);
+}
+
+.adress-icon {
+    color: rgb(194, 44, 44);
+}
+
+.time-icon {
+    color: rgb(226, 195, 40);
 }
