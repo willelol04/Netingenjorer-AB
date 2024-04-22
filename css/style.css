@@ -49,15 +49,7 @@ input, textarea {
 }
 
 
-form {
-    height: fit-content;
-    width: 12vw;
-    background: #1A1C20;
-    border: 3px solid white;
-    border-radius: 2px;
 
-
-}
 
 ::placeholder { color: #F4F4F4;}
 
@@ -181,7 +173,6 @@ footer {
 
 img {
     border-radius: 10px;
-    object-fit: cover;
 }
 
 
@@ -276,14 +267,6 @@ section p {
     gap: 10%;
 }
 
-.department-about {
-    width: 100%;
-    display: flex;
-    flex-direction: row;
-    justify-content: space-between;
-    
-
-}
 
 .departments {
     width: 100%;
@@ -321,10 +304,12 @@ section p {
 
 }
 
-.department-employees {
-    width: 40%;
+.employees {
+    width: 100%;
     display: flex;
     flex-direction: row;
+    align-items: start;
+    justify-content: center;
     flex-wrap: wrap;
     gap: 10%;
 }
@@ -335,28 +320,29 @@ section p {
 }
 
 
+.info-container {
+    width: 45%;
+}
+
+
 
 .employee {
-    width: 40%;
+    width: 15%;
     margin-bottom: 15px;
+    
 }
 
 .employee img {
     width: 100%;
 }
 
-
-.emp-container, .info-container {
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    width: 50%;
-    font-family: Verdana, Geneva, Tahoma, sans-serif;
+.employees {
+    width: 100%;
 }
 
-.emp-container h3, .info-container h3 {
-    display: block;
+.department-info {
     width: 100%;
+    text-align: left;
 }
 
 p, h3, h2 {
@@ -408,6 +394,13 @@ p {
 
 .email-info {
     text-align: left;
+    background: #1A1C20;
+    color: white;
+}
+
+input, textarea {
+    border-radius: 5px;
+
 }
 
 .email input, .text textarea {
@@ -435,4 +428,41 @@ i {
 
 .time-icon {
     color: rgb(226, 195, 40);
+}
+
+#submit {
+    padding: 10px;
+    right: 0;
+    border-radius: 5px;
+    background: #F4F4F4;
+}
+
+.dep-img {
+    width: 500px;
+}
+
+.department-container {
+    width: 100%;
+    gap: 20%;
+    display: flex;
+    justify-content: space-between;
+}
+
+.info-section {
+    cursor: pointer;
+    user-select: none;
+}
+
+
+
+.spin {
+    transform: rotate(180deg);
+}
+
+.hidden {
+    visibility: hidden;
+}
+
+.fa-chevron-down {
+    margin-left: 5px;
 }

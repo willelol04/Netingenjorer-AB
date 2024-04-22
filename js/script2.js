@@ -112,7 +112,7 @@ const DEPARTMENTS = {
         "hardware" : "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Perferendis consequuntur, corrupti pariatur incidunt placeat cupiditate magnam iste earum doloremque ipsa sint esse ex. Consequuntur voluptatibus saepe adipisci optio illum maiores.",
         "software" : "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Perferendis consequuntur, corrupti pariatur incidunt placeat cupiditate magnam iste earum doloremque ipsa sint esse ex. Consequuntur voluptatibus saepe adipisci optio illum maiores.",
         "amountOfEmployees": 2,
-                "img": "../img/banner.jpg",
+        "img": "../img/banner.jpg",
 
         EMPLOYEES : {
             0: {
@@ -228,4 +228,4 @@ function showEmployees() {
     addDepartmentInfo(departmentInd);
 }
 
-showInformation(0);
+showEmployees();
