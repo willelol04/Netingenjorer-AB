@@ -6,6 +6,16 @@ const DEPARTMENTS = {
         "heading" : "CAD/BERÄKNING",
         "about" : "CAD-avdelningen fokuserar på design och tekniska ritningar för produkter och projekt. De använder datorstödd design (CAD) för att skapa och modifiera tekniska ritningar och modeller.",
         "hardware" : "Avdelningen använder kraftfulla arbetsstationer med avancerade grafikkort och stora bildskärmar för att möjliggöra detaljerade och komplexa designuppgifter.",
+        "desktop" : `Processor	Intel Core i9 13900K 3.0 GHz 68MB
+        Internminne	Kingston 32GB (2x16GB) DDR5 4800MHz CL38 FURY Beast
+        Hårddisk	Samsung 990 PRO M.2 NVMe SSD 1TB
+        Moderkort	ASUS Prime Z690-A
+        Grafikkort	PNY RTX 4000 20GB Ada Generation
+        Chassi	Corsair 4000D Airflow Svart
+        Processorkylare	NZXT Kraken 360 Svart
+        Nätaggregat	Phanteks  AMP 1000W v2 Svart
+        Operativsystem	Windows 11 Home Svensk 64-bit OEM`,
+        "laptop" : `Acer Predator Helios 18`,
         "software" : "Programvaran AutoCAD används för design i 2D och 3D.",
         "amountOfEmployees": 4,
         "img": "../img/departments/cad.jpg",
@@ -38,6 +48,16 @@ const DEPARTMENTS = {
         "heading" : "WEBB/BILD",
         "about" : "WEB-avdelningen hanterar utvecklingen och underhållet av företagets webbplatser och webbapplikationer. De ansvarar för att säkerställa en användarvänlig och attraktiv online-närvaro. Dessutom utförs en del bildmanipulering och fotografering åt företag.",
         "hardware" : "Vanligtvis använder avdelningen relativt kraftfulla stationära datorer med tillräcklig processor- och minneskapacitet för webbutvecklingsuppgifter samt bildmanipulering.",
+        "desktop" : `Chassi	Lian Li LANCOOL 216 Mesh Svart
+        Grafikkort	Gigabyte GeForce RTX 4060 8GB Windforce OC
+        Hårddisk	WD Black SN850X 1TB Gen 4
+        Internminne	Corsair 32GB (2x16GB) DDR4 3200MHz CL16 Vengeance LPX Svart B
+        Processor	AMD Ryzen 7 5700X 3.4 GHz 36MB
+        Processorkylare	Arctic Liquid Freezer II 240
+        Moderkort	MSI B550-A Pro
+        Nätaggregat	Corsair RM850e ATX 3.0 850W
+        Operativsystem	Windows 11 Home Svensk 64-bit OEM`,
+        "laptop" : `Lenovo Legion Slim 5`,
         "software" : "Webbutveckling sker i Visual Studio Code. För fotografering och bildmanipulation använder vi program från Adobe, främst Photoshop och Lightroom.",
         "amountOfEmployees": 3,
         "img": "../img/departments/web.jpg",
@@ -66,6 +86,15 @@ const DEPARTMENTS = {
         "heading" : "LÖN",
         "about" : "LÖN-avdelningen ansvarar för hanteringen av företagets löner och personalrelaterade ekonomiska frågor, inklusive skatter, bonusar och förmåner.",
         "hardware" : "Avdelningen använder vanligtvis datorer och kanske skrivare för att skriva ut rapporter och dokument relaterade till lönehantering.",
+        "desktop" : `CPU	AMD Ryzen 7 5700G
+        Chassi	Fractal Design Focus 2 Svart Solid
+        Moderkort	Gigabyte A520M H
+        RAM	Kingston Fury 16GB (2x8GB) DDR4 3200MHz CL 16 Beast
+        SSD	Kingston Fury Renegade M.2 NVMe SSD Gen 4 1TB
+        CPU Kylare* (Ingår i CPU)	Wraith Stealth
+        PSU	Corsair CV650 650W Dual EPS
+        OS	Windows 11 Home Svensk 64-bit OEM`,
+        "laptop" : `Lenovo IdeaPad 1 - 14" | Ryzen 5 | 8GB | 512GB`,
         "software" : "Programvaran som används för att hantera de anställdas löner är Visma Lön.",
         "amountOfEmployees": 2,
         "img": "../img/departments/salary.jpg",
@@ -88,6 +117,15 @@ const DEPARTMENTS = {
         "heading" : "LAGER OCH INKÖP",
         "about" : " LAGER-avdelningen ansvarar för att hantera företagets lager, inklusive mottagande, lagring, plockning, packning och leverans av varor.",
         "hardware" : "Avdelningen använder kanske streckkodsskannrar, handdatorer, gaffeltruckar och andra lagerhanteringsutrustningar beroende på verksamhetens storlek och behov.",
+        "desktop" : `CPU	AMD Ryzen 7 5700G
+        Chassi	Fractal Design Focus 2 Svart Solid
+        Moderkort	Gigabyte A520M H
+        RAM	Kingston Fury 16GB (2x8GB) DDR4 3200MHz CL 16 Beast
+        SSD	Kingston Fury Renegade M.2 NVMe SSD Gen 4 1TB
+        CPU Kylare* (Ingår i CPU)	Wraith Stealth
+        PSU	Corsair CV650 650W Dual EPS
+        OS	Windows 11 Home Svensk 64-bit OEM`,
+        "laptop" : `Lenovo IdeaPad 1 - 14" | Ryzen 5 | 8GB | 512GB`,
         "software" : "Bokföring i lagret görs genom Microsoft Excel.",
         "amountOfEmployees": 2,
         "img": "../img/departments/inventory.jpg",
@@ -110,6 +148,15 @@ const DEPARTMENTS = {
         "heading" : "RECEPTION",
         "about" : "WEB-avdelningen hanterar utvecklingen och underhållet av företagets webbplatser och webbapplikationer. De ansvarar för att säkerställa en användarvänlig och attraktiv online-närvaro. Dessutom utförs en del bildmanipulering och fotografering åt företag.",
         "hardware" : "Vanligtvis använder avdelningen relativt kraftfulla stationära datorer med tillräcklig processor- och minneskapacitet för webbutvecklingsuppgifter samt bildmanipulering.",
+        "desktop" : `CPU	AMD Ryzen 7 5700G
+        Chassi	Fractal Design Focus 2 Svart Solid
+        Moderkort	Gigabyte A520M H
+        RAM	Kingston Fury 16GB (2x8GB) DDR4 3200MHz CL 16 Beast
+        SSD	Kingston Fury Renegade M.2 NVMe SSD Gen 4 1TB
+        CPU Kylare* (Ingår i CPU)	Wraith Stealth
+        PSU	Corsair CV650 650W Dual EPS
+        OS	Windows 11 Home Svensk 64-bit OEM`,
+        "laptop" : `-`,
         "software" : "Mjukvaror som HTML, CSS, JavaScript, och ramverk som React, Angular eller Vue.js används för att utveckla och designa webbplatser och webbapplikationer. För fotografering och bildmanipulation använder vi program från Adobe, främst Photoshop och Lightroom.",
         "amountOfEmployees": 2,
         "img": "../img/departments/reception.jpg",
@@ -142,6 +189,8 @@ let arrows = document.querySelectorAll(".fa-chevron-down");
 let infoTexts = document.querySelectorAll(".info-text");
 let aboutText = document.querySelector(".about");
 let hwText = document.querySelector(".hw");
+let desktop = document.querySelector(".desktop");
+let laptop = document.querySelector(".laptop");
 let swText = document.querySelector(".sw");
 
 
@@ -150,7 +199,7 @@ let currentDepartmentInd = 0;
 
 function infoClick(ind) {
     arrows[ind].classList.toggle('spin');
-    infoTexts[ind+1].classList.toggle('hidden');
+    infoTexts[ind].classList.toggle('hidden');
     
 
 }
@@ -161,7 +210,8 @@ function showInformation(ind) {
     depImg.src = DEPARTMENTS[ind].img;
     depImg.alt = "Bild på " + DEPARTMENTS[ind].heading;
     aboutText.innerText = DEPARTMENTS[ind].about;
-    hwText.innerText = DEPARTMENTS[ind].hardware;
+    hwText.innerText = DEPARTMENTS[ind].hardware + "\n\n PC: \n" + DEPARTMENTS[ind].desktop + "\n\n Laptop: \n" + DEPARTMENTS[ind].laptop;
+
     swText.innerText = DEPARTMENTS[ind].software;
 
 }
@@ -175,6 +225,8 @@ function showInformation(ind) {
 
 divDepartments.forEach((dep) => {
     dep.addEventListener("click", () => {
+        arrows.forEach((arrow) => arrow.classList.add('spin'));
+        infoTexts.forEach((text) => text.classList.add('hidden'));
 
         divDepartments.forEach((dep) => {
             dep.style.backgroundColor = "#1A1C20";

@@ -449,7 +449,7 @@ i {
 }
 
 .hidden {
-    visibility: hidden;
+    display: none;
 }
 
 .fa-chevron-down {
