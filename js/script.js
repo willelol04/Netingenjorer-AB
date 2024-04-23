@@ -64,20 +64,20 @@ const DEPARTMENTS = {
 
         EMPLOYEES : {
             0: {
-                firstName : "Ahmed",
-                img : "../img/employees/ahmed.jpg",
-                title : "CAD-ritare"
+                firstName : "Carla",
+                img : "../img/employees/carla.jpg",
+                title : "Fotograf"
     
             },
             1: {
-                firstName : "Christina",
-                img : "../img/employees/christina.jpg",
-                title : "CAD-ritare"
+                firstName : "Kris",
+                img : "../img/employees/kris.jpg",
+                title : "Videoredigerare & Bildmanipulation"
             },
             2: {
-                firstName : "Jakob",
-                img : "../img/employees/jakob.jpg",
-                title : "Projektledare"
+                firstName : "Vincent",
+                img : "../img/employees/vincent.jpg",
+                title : "Bildmanipulation"
             }
             
         }
@@ -98,18 +98,17 @@ const DEPARTMENTS = {
         "software" : "Programvaran som används för att hantera de anställdas löner är Visma Lön.",
         "amountOfEmployees": 2,
         "img": "../img/departments/salary.jpg",
-
         EMPLOYEES : {
             0: {
-                firstName : "Ahmed",
-                img : "../img/employees/ahmed.jpg",
-                title : "CAD-ritare"
+                firstName : "DavidAdministration",
+                img : "../img/employees/david.jpg",
+                title : "Administration"
     
             },
             1: {
-                firstName : "Christina",
-                img : "../img/employees/christina.jpg",
-                title : "CAD-ritare"
+                firstName : "Sofia",
+                img : "../img/employees/sofia.jpg",
+                title : "Administration"
             }
         }
     },
@@ -132,15 +131,15 @@ const DEPARTMENTS = {
 
         EMPLOYEES : {
             0: {
-                firstName : "Ahmed",
-                img : "../img/employees/ahmed.jpg",
-                title : "CAD-ritare"
+                firstName : "Fredrik",
+                img : "../img/employees/fredrik.jpg",
+                title : "Lager"
     
             },
             1: {
-                firstName : "Christina",
-                img : "../img/employees/christina.jpg",
-                title : "CAD-ritare"
+                firstName : "Alf",
+                img : "../img/employees/alf.jpg",
+                title : "Truckförare"
             }
         }
     },
@@ -160,18 +159,18 @@ const DEPARTMENTS = {
         "software" : "Mjukvaror som HTML, CSS, JavaScript, och ramverk som React, Angular eller Vue.js används för att utveckla och designa webbplatser och webbapplikationer. För fotografering och bildmanipulation använder vi program från Adobe, främst Photoshop och Lightroom.",
         "amountOfEmployees": 2,
         "img": "../img/departments/reception.jpg",
-
+        
         EMPLOYEES : {
             0: {
-                firstName : "Ahmed",
-                img : "../img/employees/ahmed.jpg",
-                title : "CAD-ritare"
+                firstName : "Elsa",
+                img : "../img/employees/elsa.jpg",
+                title : "Receptionist"
     
             },
             1: {
-                firstName : "Christina",
-                img : "../img/employees/christina.jpg",
-                title : "CAD-ritare"
+                firstName : "Albert",
+                img : "../img/employees/albert.jpg",
+                title : "Receptionist"
             }
         }
     }
@@ -241,7 +240,6 @@ divDepartments.forEach((dep) => {
         for(let i = 0; i < divDepartments.length; i++) {
             if(divDepartments[i] === dep) {
                 textGuide.remove();
-                console.log(i);
                 currentDepartmentInd = i;
                 showInformation(i);
 
@@ -274,11 +272,17 @@ function showEmployees() {
     
             depEmployees.appendChild(empDiv);
             
-            console.log(DEPARTMENTS[i].EMPLOYEES[n].firstName);
         }
     }
 
-    addDepartmentInfo(departmentInd);
 }
 
-showInformation(0);
+if(depHeading) {
+    showInformation(0);
+
+}
+
+if(depEmployees) {
+    showEmployees();
+
+}
