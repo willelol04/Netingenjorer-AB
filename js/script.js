@@ -3,12 +3,12 @@
 const DEPARTMENTS = {
     0: 
     {
-        "heading" : "CAD",
-        "about" : "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Perferendis consequuntur, corrupti pariatur incidunt placeat cupiditate magnam iste earum doloremque ipsa sint esse ex. Consequuntur voluptatibus saepe adipisci optio illum maiores.",
-        "hardware" : "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Perferendis consequuntur, corrupti pariatur incidunt placeat cupiditate magnam iste earum doloremque ipsa sint esse ex. Consequuntur voluptatibus saepe adipisci optio illum maiores.",
-        "software" : "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Perferendis consequuntur, corrupti pariatur incidunt placeat cupiditate magnam iste earum doloremque ipsa sint esse ex. Consequuntur voluptatibus saepe adipisci optio illum maiores.",
+        "heading" : "CAD/BERÄKNING",
+        "about" : "CAD-avdelningen fokuserar på design och tekniska ritningar för produkter och projekt. De använder datorstödd design (CAD) för att skapa och modifiera tekniska ritningar och modeller.",
+        "hardware" : "Avdelningen använder kraftfulla arbetsstationer med avancerade grafikkort och stora bildskärmar för att möjliggöra detaljerade och komplexa designuppgifter.",
+        "software" : "Programvaran AutoCAD används för design i 2D och 3D.",
         "amountOfEmployees": 4,
-        "img": "../img/banner.jpg",
+        "img": "../img/departments/cad.jpg",
         EMPLOYEES : {
             0: {
                 firstName : "Ahmed",
@@ -35,12 +35,12 @@ const DEPARTMENTS = {
 
     },
     1: {
-        "heading" : "WEB",
-        "about" : "<qweqweqweqweqweqwe>",
-        "hardware" : "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Perferendis consequuntur, corrupti pariatur incidunt placeat cupiditate magnam iste earum doloremque ipsa sint esse ex. Consequuntur voluptatibus saepe adipisci optio illum maiores.",
-        "software" : "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Perferendis consequuntur, corrupti pariatur incidunt placeat cupiditate magnam iste earum doloremque ipsa sint esse ex. Consequuntur voluptatibus saepe adipisci optio illum maiores.",
+        "heading" : "WEBB/BILD",
+        "about" : "WEB-avdelningen hanterar utvecklingen och underhållet av företagets webbplatser och webbapplikationer. De ansvarar för att säkerställa en användarvänlig och attraktiv online-närvaro. Dessutom utförs en del bildmanipulering och fotografering åt företag.",
+        "hardware" : "Vanligtvis använder avdelningen relativt kraftfulla stationära datorer med tillräcklig processor- och minneskapacitet för webbutvecklingsuppgifter samt bildmanipulering.",
+        "software" : "Webbutveckling sker i Visual Studio Code. För fotografering och bildmanipulation använder vi program från Adobe, främst Photoshop och Lightroom.",
         "amountOfEmployees": 3,
-        "img": "../img/banner.jpg",
+        "img": "../img/departments/web.jpg",
 
         EMPLOYEES : {
             0: {
@@ -63,12 +63,12 @@ const DEPARTMENTS = {
         }
     },
     2: {
-        "heading" : "SALARY",
-        "about" : "<qweqweqweqweqweqwe>",
-        "hardware" : "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Perferendis consequuntur, corrupti pariatur incidunt placeat cupiditate magnam iste earum doloremque ipsa sint esse ex. Consequuntur voluptatibus saepe adipisci optio illum maiores.",
-        "software" : "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Perferendis consequuntur, corrupti pariatur incidunt placeat cupiditate magnam iste earum doloremque ipsa sint esse ex. Consequuntur voluptatibus saepe adipisci optio illum maiores.",
+        "heading" : "LÖN",
+        "about" : "LÖN-avdelningen ansvarar för hanteringen av företagets löner och personalrelaterade ekonomiska frågor, inklusive skatter, bonusar och förmåner.",
+        "hardware" : "Avdelningen använder vanligtvis datorer och kanske skrivare för att skriva ut rapporter och dokument relaterade till lönehantering.",
+        "software" : "Programvaran som används för att hantera de anställdas löner är Visma Lön.",
         "amountOfEmployees": 2,
-        "img": "../img/banner.jpg",
+        "img": "../img/departments/salary.jpg",
 
         EMPLOYEES : {
             0: {
@@ -85,12 +85,12 @@ const DEPARTMENTS = {
         }
     },
     3: {
-        "heading" : "INVENTORY",
-        "about" : "<qweqweqweqweqweqwe>",
-        "hardware" : "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Perferendis consequuntur, corrupti pariatur incidunt placeat cupiditate magnam iste earum doloremque ipsa sint esse ex. Consequuntur voluptatibus saepe adipisci optio illum maiores.",
-        "software" : "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Perferendis consequuntur, corrupti pariatur incidunt placeat cupiditate magnam iste earum doloremque ipsa sint esse ex. Consequuntur voluptatibus saepe adipisci optio illum maiores.",
+        "heading" : "LAGER OCH INKÖP",
+        "about" : " LAGER-avdelningen ansvarar för att hantera företagets lager, inklusive mottagande, lagring, plockning, packning och leverans av varor.",
+        "hardware" : "Avdelningen använder kanske streckkodsskannrar, handdatorer, gaffeltruckar och andra lagerhanteringsutrustningar beroende på verksamhetens storlek och behov.",
+        "software" : "Bokföring i lagret görs genom Microsoft Excel.",
         "amountOfEmployees": 2,
-        "img": "../img/banner.jpg",
+        "img": "../img/departments/inventory.jpg",
 
         EMPLOYEES : {
             0: {
@@ -108,11 +108,11 @@ const DEPARTMENTS = {
     },
     4: {
         "heading" : "RECEPTION",
-        "about" : "<qweqweqweqweqweqwe>",
-        "hardware" : "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Perferendis consequuntur, corrupti pariatur incidunt placeat cupiditate magnam iste earum doloremque ipsa sint esse ex. Consequuntur voluptatibus saepe adipisci optio illum maiores.",
-        "software" : "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Perferendis consequuntur, corrupti pariatur incidunt placeat cupiditate magnam iste earum doloremque ipsa sint esse ex. Consequuntur voluptatibus saepe adipisci optio illum maiores.",
+        "about" : "WEB-avdelningen hanterar utvecklingen och underhållet av företagets webbplatser och webbapplikationer. De ansvarar för att säkerställa en användarvänlig och attraktiv online-närvaro. Dessutom utförs en del bildmanipulering och fotografering åt företag.",
+        "hardware" : "Vanligtvis använder avdelningen relativt kraftfulla stationära datorer med tillräcklig processor- och minneskapacitet för webbutvecklingsuppgifter samt bildmanipulering.",
+        "software" : "Mjukvaror som HTML, CSS, JavaScript, och ramverk som React, Angular eller Vue.js används för att utveckla och designa webbplatser och webbapplikationer. För fotografering och bildmanipulation använder vi program från Adobe, främst Photoshop och Lightroom.",
         "amountOfEmployees": 2,
-                "img": "../img/banner.jpg",
+        "img": "../img/departments/reception.jpg",
 
         EMPLOYEES : {
             0: {
@@ -159,6 +159,7 @@ function infoClick(ind) {
 function showInformation(ind) {
     depHeading.innerText = DEPARTMENTS[ind].heading;
     depImg.src = DEPARTMENTS[ind].img;
+    depImg.alt = "Bild på " + DEPARTMENTS[ind].heading;
     aboutText.innerText = DEPARTMENTS[ind].about;
     hwText.innerText = DEPARTMENTS[ind].hardware;
     swText.innerText = DEPARTMENTS[ind].software;

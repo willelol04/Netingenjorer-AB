@@ -11,35 +11,10 @@
 }
 
 
-.logo {
-    width: 20vw;
-}
-
-.search-button, .search-input {
-    display: inline-block;
-}
-
-.search-button {
-    width: 20%;
-    border: none;
-    cursor: pointer;
-    height: 50px;
-    background: #F4F4F4;
-
-}
 
 
 
-.search-button i {
-    background: #F4F4F4;
-}
 
-.search-button {
-    color: black;
-    outline: none;
-
-
-}
 
 
 
@@ -51,12 +26,9 @@ input, textarea {
 
 
 
-::placeholder { color: #F4F4F4;}
 
-.banner a:hover, section a:hover {
+.banner a:hover, section a:hover, .read-more a:hover {
     text-decoration: underline;
-    transition-duration: 300ms;
-    padding: 20px;
 
 }
 
@@ -90,7 +62,7 @@ header a, footer span, .socials-list p{
     color: #F4F4F4;
 }
 
-.nav-link {
+.nav-link, .read-more {
     font-size: 1.7em;
     font-family: "Jersey 15", sans-serif;
 
@@ -98,6 +70,7 @@ header a, footer span, .socials-list p{
 
 
 .logo a {
+    width: 100%;
     font-size: 3em;
     text-align: center;
     font-family: "Jersey 15", sans-serif;
@@ -167,8 +140,9 @@ footer {
 .sections {
     text-align: left;
     display: flex;
-    justify-content: space-around;
-    align-items: flex-end;
+    justify-content: space-between;
+    align-items: flex-start;
+    margin-bottom: 40px;
 }
 
 img {
@@ -180,6 +154,8 @@ img {
 .section-img {
     width: 100%;
     min-height: 200px;
+    object-fit: cover;
+
 }
 
 .banner-about {
@@ -195,10 +171,7 @@ img {
     
 }
 
-.banner-about p {
-    margin-bottom: 10px;
 
-}
 
 section {
     width: fit-content;
@@ -206,8 +179,9 @@ section {
     flex-direction: column;
     align-items: center;
     justify-content: start;
-    gap: 20px;
-    width: 200px;
+    gap: 5%;
+    width: 20%;
+
 }
 
 section h3, .department-heading{
@@ -304,6 +278,12 @@ section p {
 
 }
 
+.department-image {
+    width: 100%;
+    text-align: left;
+}
+
+
 .employees {
     width: 100%;
     display: flex;
@@ -315,8 +295,8 @@ section p {
 }
 
 .department-info {
-    width: 40%;
-    text-align: left;
+    width: 100%;
+
 }
 
 
@@ -345,7 +325,7 @@ section p {
     text-align: left;
 }
 
-p, h3, h2 {
+p, h3, h2, input, textarea {
     margin-bottom: 20px;
 }
 
@@ -365,10 +345,13 @@ p {
 }
 
 .contact-container {
+    width: 100%;
     display: flex;
-    justify-content: space-between;
+    justify-content: center;
     align-items: center;
+    flex-direction: column;
     gap: 5%;
+    
 }
 .contact {
     display: flex;
@@ -377,18 +360,20 @@ p {
 }
 
 .email-info {
-    flex-basis: 40%;
+    width: 100%;
     padding: 10px;
     border: 1px solid black;
     border-radius: 5px;
+    font-family:Verdana, Geneva, Tahoma, sans-serif;
 }
 .contact-container input {
     border: 1px solid black;
 }
 
 .email-info input{
-    margin-bottom: 15px;
     height: 30px;
+    font-family:Verdana, Geneva, Tahoma, sans-serif;
+
 
 }
 
@@ -398,18 +383,24 @@ p {
     color: white;
 }
 
+
+
 input, textarea {
     border-radius: 5px;
 
 }
 
-.email input, .text textarea {
+.text textarea {
     width: 100%;
+}
+.email input {
+    width: 50%;
 }
 
 .text textarea {
     min-height: 100px;
     resize: vertical;
+    max-height: 900px;
     border: 1px solid grey;
 
 }
@@ -438,7 +429,7 @@ i {
 }
 
 .dep-img {
-    width: 500px;
+    width: 100%;
 }
 
 .department-container {
@@ -454,7 +445,7 @@ i {
 }
 
 .spin {
-    transform: rotate(180deg);
+    transform: rotate(270deg);
 }
 
 .hidden {
@@ -469,4 +460,48 @@ i {
     background-color:#F4F4F4;
     color: #1A1C20;
     border: 2px solid black;
+}
+
+.contact-info {
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-around;
+    margin-bottom: 40px;
+}
+
+.employees p, .contact p {
+    margin-bottom: 5px;
+}
+
+.department-img {
+    width: 100%;
+}
+
+.mail-icon {
+    color:#914ecf
+}
+
+.read-more {
+    width: 100%;
+    display: block;
+    margin: auto;
+    text-align: center;
+    background: #1A1C20;
+    border-radius: 5px;
+
+}
+
+.read-more a {
+    display: block;
+    width: 100%;
+    height: 100%;
+    padding: 20px;
+
+}
+
+
+.banner-text {
+    font-weight: 300;
 }
