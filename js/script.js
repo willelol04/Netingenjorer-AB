@@ -229,11 +229,11 @@ divDepartments.forEach((dep) => {
 
         divDepartments.forEach((dep) => {
             dep.style.backgroundColor = "#1A1C20";
-            dep.style.border = "2px solid white";
+            dep.style.border = "2px solid #F4F4F4";
             dep.style.color = "white";
         })
         dep.style.backgroundColor = "#f4f4f4";
-        dep.style.border = "2px solid black";
+        dep.style.border = "2px solid #1A1C20";
         dep.style.color = "black";
 
         
@@ -259,7 +259,7 @@ function showEmployees() {
             let empImg = document.createElement("img");
             let empName = document.createElement("p");
             let empTitle = document.createElement("p");
-
+            empTitle.style.fontStyle = "italic";
 
             empDiv.className = "employee";
             empImg.src = DEPARTMENTS[i].EMPLOYEES[n].img;
