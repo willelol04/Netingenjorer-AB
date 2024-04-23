@@ -55,19 +55,21 @@ footer span,
 
 .nav-link,
 .read-more {
-	font-size: 1.7em;
+	font-size: 1.6em;
 	font-family: "Jersey 15", sans-serif;
 
 }
 
-
-.logo a {
+.logo {
 	width: 100%;
-	font-size: 3em;
+}
+.logo a {
+	font-size: 2.8em;
 	text-align: center;
 	font-family: "Jersey 15", sans-serif;
 	font-weight: 400;
 	font-style: normal;
+	width: 100%;
 }
 
 a {
@@ -76,7 +78,7 @@ a {
 }
 
 nav {
-	width: 35vw;
+	width: 100%;
 }
 
 ul {
@@ -258,6 +260,7 @@ section p {
 	cursor: pointer;
 	background-color: #1A1C20;
 	font-family: "Russo One", sans-serif;
+	font-size: 13px;
 
 
 }
@@ -449,6 +452,12 @@ textarea {
 	display: none;
 }
 
+.block {
+	display: block;
+	transition: ease-in;
+	transition-duration: 1s;
+}
+
 .fa-chevron-down {
 	margin-left: 5px;
 }
@@ -509,11 +518,15 @@ textarea {
 }
 
 
+
 @media only screen and (max-width: 1100px) {
     .sections {
+		width: 50vw;
         padding: 0;
         flex-direction: column;
         align-items: center;
+		margin: auto;
+		justify-content: center;
         
     }
 
@@ -524,26 +537,15 @@ textarea {
     }
 
     .section-img {
-        height: 70vw;
+        height: 50vw;
     }
 
     .banner-about h2, .banner-about a {
         text-align: center;
         margin: auto;
     }
-}
 
-@media only screen and (max-width: 900px) {
-    .employees {
-        flex-direction: column;
-        align-items: center;
-    }
-
-    .employee {
-        width: 60%;
-    }
-
-    .departments {
+	.departments {
         flex-direction: column;
         gap: 3px;
         
@@ -555,6 +557,21 @@ textarea {
 
     .department {
         width: 100%;
+		font-size: 16px;
+
+    }
+
+
+}
+
+@media only screen and (max-width: 910px) {
+    .employees {
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .employee {
+        width: 60%;
     }
 
     .contact-info {
@@ -565,23 +582,78 @@ textarea {
         width: 40%;
     }
 
+	main, footer, header {
+        padding-left: 5%;
+        padding-right: 5%;
+    }
+
+	.banner-contact {
+		display: none;
+	}
+
+	nav {
+		display: none;
+		width: 100%;
+		position: absolute;
+		z-index: 12312;
+		align-items: center;
+		top: 92px;
+		left: 0;
+		background: #1A1C20;
+	}
+
+	.nav-list {
+		flex-direction: column;
+		width: 100%;
+	}
+
+	.nav-link {
+		width: 100%;
+		text-align: center;
+		padding-top: 10px;
+		padding-bottom: 10px;
+
+	}
+
+	.nav-link a {
+		width: 100%;
+		height: 100%;
+		display: block;
+	}
+
+	.hamburger-menu {
+		display: block;
+	}
+
+	header {
+		padding-top: 0;
+		padding-bottom: 0;
+	}
+
+	.fa-bars{
+		width: 100%;
+		height: 100%;
+		padding-top: 30px;
+		padding-bottom: 30px;
+	}
 
   }
 
   @media only screen and (max-width: 600px) {
 
+	.contact-info {
+		flex-direction: column;
+	}
+
+
+	.logo a {
+		font-size: 2em;
+	}
+
+
+
     .email input, .email textarea {
         width: 100%;
-    }
-
-    main {
-        padding-left: 5%;
-        padding-right: 5%;
-    }
-
-    footer {
-        padding-left: 5%;
-        padding-right: 5%;
     }
 
     .row {

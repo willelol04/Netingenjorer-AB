@@ -192,6 +192,9 @@ let desktop = document.querySelector(".desktop");
 let laptop = document.querySelector(".laptop");
 let swText = document.querySelector(".sw");
 
+let hamburger = document.querySelector(".fa-bars");
+let nav = document.querySelector("nav");
+
 
 let currentDepartmentInd = 0;
 
@@ -285,4 +288,8 @@ if(depHeading) {
 if(depEmployees) {
     showEmployees();
 
+}
+
+if(hamburger) {
+    hamburger.addEventListener("click", () => nav.classList.toggle("block"));
 }
