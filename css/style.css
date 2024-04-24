@@ -672,7 +672,6 @@ textarea {
     }
   }
 
-
-.whatthefuck {
-	display: block;
+.no-way {
+	display: flex;
 }
