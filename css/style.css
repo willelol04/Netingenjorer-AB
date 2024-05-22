@@ -408,19 +408,19 @@ textarea {
 .contact i {
 	margin-bottom: 15px;
 }
-/*
+
 .phone-icon {
-	color: rgb(55, 202, 55);
+	color: #1A1C20;
 }
 
 .adress-icon {
-	color: rgb(194, 44, 44);
+	color: #1A1C20;
 }
 
 .time-icon {
-	color: rgb(226, 195, 40);
+	color: #1A1C20;
 }
-*/
+
 #submit {
 	padding: 10px;
 	right: 0;
@@ -485,11 +485,11 @@ textarea {
 .department-img {
 	width: 100%;
 }
-/*
+
 .mail-icon {
-	color: #914ecf
+	color: #1A1C20;
 }
-*/
+
 .read-more {
 	width: 80%;
 	display: block;
