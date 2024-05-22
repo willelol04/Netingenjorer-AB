@@ -47,7 +47,7 @@ const DEPARTMENTS = {
     1: {
         "heading" : "WEBB/BILD",
         "about" : "WEB-avdelningen hanterar utvecklingen och underhållet av företagets webbplatser och webbapplikationer. De ansvarar för att säkerställa en användarvänlig och attraktiv online-närvaro. Dessutom utförs en del bildmanipulering och fotografering åt företag.",
-        "hardware" : "Vanligtvis använder avdelningen relativt kraftfulla stationära datorer med tillräcklig processor- och minneskapacitet för webbutvecklingsuppgifter samt bildmanipulering.",
+        "hardware" : "Avdelningen använder relativt kraftfulla stationära datorer med tillräcklig processor- och minneskapacitet för webbutvecklingsuppgifter samt bildmanipulering.",
         "desktop" : `Chassi	Lian Li LANCOOL 216 Mesh Svart
         Grafikkort	Gigabyte GeForce RTX 4060 8GB Windforce OC
         Hårddisk	WD Black SN850X 1TB Gen 4
@@ -85,7 +85,7 @@ const DEPARTMENTS = {
     2: {
         "heading" : "LÖN",
         "about" : "LÖN-avdelningen ansvarar för hanteringen av företagets löner och personalrelaterade ekonomiska frågor, inklusive skatter, bonusar och förmåner.",
-        "hardware" : "Avdelningen använder vanligtvis datorer och kanske skrivare för att skriva ut rapporter och dokument relaterade till lönehantering.",
+        "hardware" : "Avdelningen använder datorer och skrivare för att skriva ut rapporter och dokument relaterade till lönehantering.",
         "desktop" : `CPU	AMD Ryzen 7 5700G
         Chassi	Fractal Design Focus 2 Svart Solid
         Moderkort	Gigabyte A520M H
@@ -115,7 +115,7 @@ const DEPARTMENTS = {
     3: {
         "heading" : "LAGER OCH INKÖP",
         "about" : " LAGER-avdelningen ansvarar för att hantera företagets lager, inklusive mottagande, lagring, plockning, packning och leverans av varor.",
-        "hardware" : "Avdelningen använder kanske streckkodsskannrar, handdatorer, gaffeltruckar och andra lagerhanteringsutrustningar beroende på verksamhetens storlek och behov.",
+        "hardware" : "Avdelningen använder streckkodsskannrar, handdatorer, gaffeltruckar och andra lagerhanteringsutrustningar.",
         "desktop" : `CPU	AMD Ryzen 7 5700G
         Chassi	Fractal Design Focus 2 Svart Solid
         Moderkort	Gigabyte A520M H
@@ -145,8 +145,8 @@ const DEPARTMENTS = {
     },
     4: {
         "heading" : "RECEPTION",
-        "about" : "WEB-avdelningen hanterar utvecklingen och underhållet av företagets webbplatser och webbapplikationer. De ansvarar för att säkerställa en användarvänlig och attraktiv online-närvaro. Dessutom utförs en del bildmanipulering och fotografering åt företag.",
-        "hardware" : "Vanligtvis använder avdelningen relativt kraftfulla stationära datorer med tillräcklig processor- och minneskapacitet för webbutvecklingsuppgifter samt bildmanipulering.",
+        "about" : "Våra receptionister ansvarar för att hälsa besökare välkomna, svara på inkommande telefonsamtal, hantera post och paket, boka mötesrum, och ge stöd till både personal och gäster. Dessutom hanterar de säkerhetsaspekter som in- och utpassering av besökare och ibland även enklare administrativa uppgifter.",
+        "hardware" : "Hårdvara som används är datorer för administrativa uppgifter, telefonväxel för samtalshantering, samt skrivare och skanner för dokumenthantering.",
         "desktop" : `CPU	AMD Ryzen 7 5700G
         Chassi	Fractal Design Focus 2 Svart Solid
         Moderkort	Gigabyte A520M H
@@ -156,7 +156,7 @@ const DEPARTMENTS = {
         PSU	Corsair CV650 650W Dual EPS
         OS	Windows 11 Home Svensk 64-bit OEM`,
         "laptop" : `-`,
-        "software" : "Mjukvaror som HTML, CSS, JavaScript, och ramverk som React, Angular eller Vue.js används för att utveckla och designa webbplatser och webbapplikationer. För fotografering och bildmanipulation använder vi program från Adobe, främst Photoshop och Lightroom.",
+        "software" : "Mjukvara som används är e-post- och kalenderprogram för kommunikation och bokningar, kundhanteringssystem (CRM) för att spåra besökare och kunder, samt dokumenthanteringssystem för att organisera och lagra viktiga filer.",
         "amountOfEmployees": 2,
         "img": "../img/departments/reception.jpg",
         
